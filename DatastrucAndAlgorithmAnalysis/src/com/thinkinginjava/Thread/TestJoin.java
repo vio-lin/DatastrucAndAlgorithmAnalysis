@@ -1,5 +1,9 @@
 package com.thinkinginjava.Thread;
-
+/**
+ *  join 方法 使用当前的方法使得在只有此threa结束之后才允许别的进程执行
+ * @author lin
+ *
+ */
 public class TestJoin {
 	public static void main(String[] args) {
 		MyThread thread = new MyThread("我是进程");

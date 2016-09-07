@@ -1,6 +1,6 @@
 package com.thinkinginjava.Thread;
 /**
- * 线程之间的先后
+ * 线程之间的先后顺序
  * @author lin
  *
  */
