@@ -4,7 +4,7 @@ import com.violin.qlcode.test;
 
 public class 归并排序 {
 	public static void main(String[] args) {
-		int[] a = new int[] {1,2,5,6,2,78,15,48,25,15,4,4,8,5,85,48,7};
+		int[] a = new int[] {15,25,3,45,21,5,54,8,21,5,2};
 		int[] b = new int[a.length];
 		mergeSort(a);
 		for(int i=0;i<a.length;i++){
