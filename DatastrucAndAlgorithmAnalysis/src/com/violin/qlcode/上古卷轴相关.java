@@ -8,7 +8,7 @@ import java.util.TreeMap;
 
 import org.junit.Test;
 
-public class test {
+public class 上古卷轴相关 {
 	public static void main(String[] args) {
 		List<String> list;
 		list =  Arrays.asList("askdj,asdasd,asdas,d,rg,gt,yt,u,ui,ui,".split(","));
