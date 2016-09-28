@@ -2,7 +2,7 @@ package com.data.homework;
 
 import org.junit.Test;
 
-public class ksajd {
+public class 求单词序列数目 {
 
 	public static void outPutlogoGriph(String temp,String[] logogriph){
 		for(int k=0;k<logogriph.length;k++){
