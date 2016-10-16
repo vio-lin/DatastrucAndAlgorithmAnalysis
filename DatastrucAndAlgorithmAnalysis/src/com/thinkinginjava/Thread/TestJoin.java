@@ -1,6 +1,9 @@
 package com.thinkinginjava.Thread;
+
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
- *  join 方法 使用当前的方法使得在只有此threa结束之后才允许别的进程执行
+ *  join 方法 使用当前进程的方法使得在只有此thread结束之后才允许别的进程执行
  * @author lin
  *
  */

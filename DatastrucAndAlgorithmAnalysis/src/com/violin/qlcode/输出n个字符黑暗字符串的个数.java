@@ -21,7 +21,6 @@ public class 输出n个字符黑暗字符串的个数 {
 			for(int j=0;j<list.size();j++){
 				if(check(list.get(j))){
 					count++;
-					System.out.println(list.get(j));
 				}
 				
 			}
