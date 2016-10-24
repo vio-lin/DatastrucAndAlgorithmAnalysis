@@ -64,7 +64,7 @@ public class NO1012 {
 			}
 			
 			if(count3==0){
-				System.out.println("N ");
+				System.out.print("N ");
 			}else{
 				int sum = 0;
 				System.out.format("%.1f ", (double)sum3/count3);
