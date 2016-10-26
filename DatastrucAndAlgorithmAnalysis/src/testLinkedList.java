@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.LinkedList;
 
+import org.junit.Test;
+
 /**
  * 关于 几个 poll push offer 的操作 真是 不论怎么记 都是会忘记
  * 难道太依赖文档了 
@@ -32,6 +34,11 @@ public class testLinkedList {
 		System.out.println("offer"+list);
 		list.pop();
 		System.out.println("pop"+list);
-		
+	}
+	@Test
+	public void testcharat(){
+		String abd = "sasdasjlkdad";
+		System.out.println(abd.charAt(0));
+		System.out.println(Character.isAlphabetic('&'));
 	}
 }
