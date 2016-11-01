@@ -32,7 +32,7 @@ public class 兼职问题 {
     public static int [][] path;
     public static Map<String, Integer> result;
     public static void main(String[] args) {
-        result = new HashMap<String, Integer>();
+    	result = new HashMap<String, Integer>();
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
         int M = scan.nextInt();
