@@ -16,7 +16,7 @@ public class 插入排序 {
 		}
 		System.out.println((time-System.currentTimeMillis()));
 		for (int i = 1; i < a.length; i++) {
-			System.out.print(a[i]+";");
+			System.out.print(a[i]+";"); 
 		}
 	}
 
@@ -42,7 +42,7 @@ public class 插入排序 {
 		// TODO Auto-generated method stub
 		int temp = a[i];
 		int j;
-		for( j=i;a[j]<temp&&j>1;j--)
+		for( j=i;j>0&&a[j-1]>temp;)
 			a[j--] = a[j];
 		a[j]=temp;
 	}

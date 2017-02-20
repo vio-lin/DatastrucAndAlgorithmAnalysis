@@ -5,7 +5,6 @@ import com.violin.qlcode.上古卷轴相关;
 public class 归并排序 {
 	public static void main(String[] args) {
 		int[] a = new int[] {15,25,3,45,21,5,54,8,21,5,2};
-		int[] b = new int[a.length];
 		mergeSort(a);
 		for(int i=0;i<a.length;i++){
 			System.out.print(a[i]+" ");
