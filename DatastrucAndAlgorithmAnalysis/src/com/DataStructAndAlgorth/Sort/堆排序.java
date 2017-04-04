@@ -41,6 +41,7 @@ public class 堆排序 {
 		}
 		for(int i=a.length-1;i>0;i--){
 //			swapReference(a,0,i);
+		    //调换 a,0,i的值
 			perDown(a, 0, i);
 		}
 	}
