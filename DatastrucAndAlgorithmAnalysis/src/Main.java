@@ -1,19 +1,39 @@
 import java.util.Scanner;
 
-
 public class Main {
-//最长的公共子串
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        char[] ch1 = scan.nextLine().toCharArray();
-        char[] ch2 = scan.nextLine().toCharArray();
-        int[][] dp = new int[ch1.length][ch2.length];
-        for(int i=1;i<ch1.length;i++){
-            for(int j=1;j<ch2.length;j++){
-                if(ch1[i]==ch2[j]){
-                    dp[i][j] = dp[i-1][j-1]++;
+        int sum = scan.nextInt();
+        int i=2;
+        while(sum>=i){
+            sum-=i;
+            i++;
+        }
+        int res = 1;
+        i--;
+        if(sum==0){
+            while(i!=2){
+                res *=i;
+            }
+        }else if (sum == i){
+            res = res*(i+2);
+            i--;
+            while(i!=3){
+                res*=i;
+            }
+        }else{
+            while(i!=1){
+                if(sum!=0){
+                    res*=(i+1);
+                    sum--;
+                    i--;
+                }else{
+                    res*=i;
+                    i--;
                 }
             }
         }
+        System.out.println(res);
     }
 }
